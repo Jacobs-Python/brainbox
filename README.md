@@ -3,7 +3,7 @@
 
 # Intro
 
- Brainfuck is an esoteric language &mdash; esolang &mdash; invented by Swiss physics student Urban M&Luml;ller in 1993 for the Amiga operating system, with the intent of designing a programming language with the smallest possible compiler.
+ Brainfuck is an esoteric language &mdash; esolang &mdash; invented by Swiss physics student Urban M&#252;ller in 1993 for the Amiga operating system, with the intent of designing a programming language with the smallest possible compiler.
 
  Brainfuck isn't designed for actual use, but to be confusing &amp; difficult to understand. Brainfuck has no variables, functions, or other high-level things. Brainfuck is Turing complete, but not 
 
