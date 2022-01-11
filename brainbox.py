@@ -13,7 +13,7 @@ class Interpreter:
         
     def reset(self):
         # Empty memory
-        self.mem = [0,0,0]
+        self.mem = [0]
         
     def handle_loops(self, chars):
         # Find loops
@@ -67,5 +67,5 @@ class Interpreter:
             elif c == "]" and self.mem[self.ptr] != 0:
                 idx = loops[idx]
             idx += 1
-        print("\nProgram used %s bits of memory, and finished evaluation in %s seconds."%(len(self.mem),str(time.time()-start_time)))
+        print("\nProgram used %s bytes of memory, and finished evaluation in %s seconds."%(len(self.mem),str(time.time()-start_time)))
                 
